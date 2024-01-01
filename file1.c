@@ -19,6 +19,7 @@ int main(){
 struct Stack stack;
 push(&stack,2);
 push(&stack,6);
+push(&stack,8);
 display(&stack);
 printf("Popped element from stack %d",pop(&stack));
 display(&stack);
