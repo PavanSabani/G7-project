@@ -1,3 +1,4 @@
+
 int pop(struct Stack*stack){
 if(stack->top==-1){
 printf("Stack underflow\n");
